@@ -28,6 +28,14 @@ header {
       color: $light;
       font-weight: bold;
     }
+    .dropdown-menu {
+      display: none;
+      background-color: black;
+      color: white;
+      &.show {
+        display: block;
+      }
+    }
   }
 }
 

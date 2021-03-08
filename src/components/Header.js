@@ -29,8 +29,28 @@ const HeaderComp = () => {
               Mission
             </a>
           </li>
-          <li className="nav-item">
-            <span className="nav-link get-involved">Get Involved V</span>
+          <li className="nav-item dropdown">
+            <span className="nav-link get-involved ">
+              Get Involved <i className="fas fa-chevron-down"></i>
+            </span>
+
+            <ul className="nav flex-column dropdown-menu ">
+              <li className="nav-item">
+                <a href="#" className="nav-link">
+                  Join LVF
+                </a>
+              </li>
+              <li className="nav-item">
+                <a href="#" className="nav-link">
+                  Partnership
+                </a>
+              </li>
+              <li className="nav-item">
+                <a href="#" className="nav-link">
+                  Donation
+                </a>
+              </li>
+            </ul>
           </li>
         </ul>
       </nav>
