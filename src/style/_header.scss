@@ -1,0 +1,57 @@
+header {
+  a {
+    color: inherit;
+    text-decoration: none;
+    &:hover {
+      text-decoration: none;
+    }
+  }
+  .navbrand {
+    align-items: center;
+    img {
+      width: 5rem;
+    }
+    .logo-text {
+      margin: 0;
+      padding: 0;
+      .top {
+        letter-spacing: 0.2rem;
+      }
+      .bottom {
+        letter-spacing: 0.3rem;
+        font-size: 0.8rem;
+      }
+    }
+  }
+  ul.nav {
+    .nav-link {
+      color: $light;
+      font-weight: bold;
+    }
+  }
+}
+
+.banner {
+  height: 90vh;
+  .overlay {
+    height: inherit;
+
+    background: radial-gradient(
+      47.88% 123.12% at 63.82% 50%,
+      rgba(0, 0, 0, 0) 6.89%,
+      rgba(0, 0, 0, 0.53) 89.53%
+    );
+  }
+
+  &-wrapper {
+    height: 50vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    h1 {
+      font-weight: 900;
+      font-size: 3rem;
+      color: $light;
+    }
+  }
+}
